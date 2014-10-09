@@ -1,0 +1,170 @@
+/* === COMMON === */
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+h2 { font-size:2em; }
+h3 {
+	font-size:1.8em;
+	font-weight:100;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+h4 {
+	font-size:1.4em;
+	font-weight:600;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+h5, h6, p {
+	margin:6px 0px 10px
+}
+
+p.lead {
+	font-size:1.6em;
+	padding-top:0px;
+	margin-top:0px;
+	color:#999;
+}
+
+.pure-button {
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color:#0484E4;
+	border:2px solid #0484E4;
+	color:#fff;
+}
+
+.pure-button-inverted {
+	background-color:#fff;
+	color:#0484E4;
+}
+
+.pure-button:hover, .pure-button-inverted:hover {
+	background-color:#0265AF;
+	border:2px solid #0265AF;
+	color:#fff;
+	box-shadow: 0;
+	background-image:none;
+}
+
+.logo {
+	height:18px;
+}
+
+/* === MENU === */
+
+.menu {
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:14px;
+	text-transform: uppercase;
+}
+
+.pure-menu ul {
+	margin-left:40px;
+}
+
+/* === SPLASH === */
+
+.splash {
+	text-align:center;
+}
+
+h1 {
+	font-size:2.4em;
+	text-transform: uppercase;
+	margin-bottom:0.2em;
+	color:#333;
+}
+
+.splash img.screenshot {
+	max-width:800px;
+	margin-top:40px;
+	padding:0px 10px;
+	position:relative;
+	bottom:-4px;
+}
+
+/* === FEATURES === */
+
+.features {
+	background-color:#4A90E2;
+	text-align:center;
+	padding:30px 0px 50px;
+}
+
+.features h2 {
+	color: #fff;
+	text-align:center;
+	padding:20px 0px;
+}
+
+.features h3 {
+	color: #fff;
+	text-align:left;
+}
+
+.features p {
+	text-align:left;
+	color:#C3E1F7;
+	font-size: 14px;
+	line-height:1.5em;
+}
+
+.features > .pure-g > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.feature-1 {
+  padding: 1em;
+}
+
+.feature-1 img {
+	height:120px;
+}
+
+/* === PRICING === */
+
+.pricing {
+	background-color:#fff;
+	text-align:left;
+	padding:60px 0px 90px;
+}
+
+.pure-form input[type=text], .pure-form input[type=email] {
+	border:2px solid #ddd;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+}
+
+/* === PRICING === */
+
+.footer {
+	background-color:#eee;
+	text-align:left;
+	padding:60px 0px;
+}
+
+.footer h5 {
+	color:#555;
+}
+
+.footer a {
+	font-size:0.85em;
+	text-decoration: none;
+	color:#0484E4;
+}
